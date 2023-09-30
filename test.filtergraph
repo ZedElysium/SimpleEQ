@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FILTERGRAPH>
-  <FILTER uid="1" x="0.5" y="0.09879032258064516" useARA="0">
+  <FILTER uid="1" x="0.29375" y="0.2157258064516129" useARA="0">
     <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -61,11 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.60875" y="0.5443548387096774" useARA="0" uiLastX_Normal="56"
-          uiLastY_Normal="123" uiopen_Normal="0">
+  <FILTER uid="5" x="0.60875" y="0.5443548387096774" useARA="0" uiLastX_Normal="1169"
+          uiLastY_Normal="238" uiopen_Normal="0">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="C:\Users\15639\Desktop\Programming\SimpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQ.vst3\Contents\x86_64-win\SimpleEQ.vst3"
-            uniqueId="f3aaa226" isInstrument="0" fileTime="18ad485d06d" infoUpdateTime="18ad51aca47"
+            uniqueId="f3aaa226" isInstrument="0" fileTime="18ad6e422f2" infoUpdateTime="18ad6e93c9a"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e9540c36"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -78,8 +78,25 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <CONNECTION srcFilter="1" srcChannel="0" dstFilter="5" dstChannel="0"/>
-  <CONNECTION srcFilter="1" srcChannel="1" dstFilter="5" dstChannel="1"/>
+  <FILTER uid="6" x="0.51625" y="0.2943548387096774" useARA="0" uiLastX_Normal="102"
+          uiLastY_Normal="68" uiopen_Normal="0">
+    <PLUGIN name="NewProject" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="C:\Users\15639\Desktop\Programming\Test\NewProject\Builds\VisualStudio2022\x64\Debug\VST3\NewProject.vst3\Contents\x86_64-win\NewProject.vst3"
+            uniqueId="3a8dc1e" isInstrument="0" fileTime="18ad6d76a9e" infoUpdateTime="18ad6e93c9a"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e95b51a2"/>
+    <STATE>292.VMjLgrQ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyL03BTIISX1UEaho2ZVkUdAAkKAwDUigWRWkEcQ0VTucmUY4BQ1sTQLolShUELhsVRxHlXEMUSwvzTNIVTTkUdyYzX0EzQWAURxDVaIcEVyAiUZQ2XFc0ZSUSZrkGMvQmdFIVdt3hKt3hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQF4RPDYFTzDzUXkWSG4RPDYmKtnWPt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgEOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
